@@ -1,0 +1,16 @@
+Zad 2 (2 pkt.):
+    Korzystając z numpy zaimplementować algorytm kNN.
+    Użytkownik podaje zbiór treningowy i testowy z linii poleceń (albo tylko jeden zbiór i stosunek podziału) oraz zakres k (uwaga na remisy przy parzystych k).
+     Program ma wypisać błąd dla poszczególnych k.
+
+
+
+    Jeżeli użytkownik podał też zbiór do predykcji, to algorytm wypisuje na ekran lub do pliku predykcje dla tego pliku przy pomocy najlepszego modelu (k).
+
+    Przykładowe wywołania:
+        python knn.py --train training.csv --test test.csv -k 3 7
+        python knn.py --data data.csv --split 0.8 -k 3 7 --predict prediction.csv --output out.csv
+    
+    
+Termin: 17 II 2021 14:00
+
